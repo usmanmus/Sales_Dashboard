@@ -42,10 +42,11 @@ These fields support multi-dimensional analysis and interactive filtering.
 
 ## DAX Measures (KPIs)
 
-    Total Profit = SUM(Sales[Profit])
+    Total Profit = SUM(data[Profit])
+    Total Sales = SUM(data[Sales])
     Profit Margin (%) = DIVIDE([Total Profit], [Total Sales], 0)
-    Average Order Value = DIVIDE([Total Sales], [Order Count], 0)
-    Order Count = DISTINCTCOUNT(Sales[OrderID])
+    Average Order Value = DIVIDE([Total Sales],DISTINCTCOUNT(data[OrderID]),0)
+    Order Count = DISTINCTCOUNT(data[CustomerID])
 
 These measures drive KPI cards and dynamically update with slicers.
 
