@@ -6,9 +6,8 @@
 
 ## Summary
 
-This project delivers an interactive Power BI dashboard for analysing retail sales and profitability.  
-It includes custom DAX measures (Total Profit, Total Sales, Profit Margin, Average Order Value, Order Count), dynamic slicers, and clear visual insights across products, locations, and time periods.  
-The project demonstrates practical skills in business reporting, KPI creation, dashboard design, and data-driven decision support.
+This project delivers an interactive Power BI dashboard for analysing retail sales and profitability. It includes custom DAX measures (Total Profit, Total Sales, Profit Margin, Average Order Value, Order Count), dynamic slicers, and clear visual insights across products, locations, and time periods. The project demonstrates practical skills in business reporting, KPI creation, dashboard design, and data-driven decision support.
+
 ---
 
 ## Data Summary
